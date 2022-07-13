@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(14, 0, 25);
+    margin-top: 50px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    transition: .5s ease;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: calc(33.33% - 70px);
+    height: 500px;
+    
+}
+
+img {
+    width: 200px;
+    height: 70%;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
+    margin: 10px auto;
+}
