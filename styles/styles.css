@@ -27,7 +27,7 @@ body {
 }
 
 .card:hover {
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.17);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
@@ -111,7 +111,7 @@ img {
 }
 
 .float:hover {
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.17);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
