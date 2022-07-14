@@ -39,7 +39,7 @@ img {
     margin: 10px auto;
 }
 
-.description{
+.description {
     border: 0.1rem solid rgb(240, 221, 255);
     border-radius: 2rem;
     padding: 0.3em;
@@ -93,12 +93,11 @@ img {
     background-color: #13bbfe95;
 }
 
-
 .link-pos {
     margin: 15px auto;
     display: block;
     text-align: center;
-   }
+}
 
 .float {
     float: left;
