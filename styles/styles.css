@@ -14,19 +14,20 @@ body {
     display: inline-block;
     margin: 1em;
     width: calc(33.33% - 35px);
-    height: calc(50vh - 100px);
+    height: calc(60vh - 100px);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(3px);
     transition: 0.5s;
     opacity: 0.5;
     cursor: pointer;
+    border-radius: 14px;
 }
 
 .card:hover {
     opacity: 1;
-    box-shadow: 10px 20px 20px -10px rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
+    border-right: 1px solid rgba(190, 126, 255, 0.44);
+    border-bottom: 1px solid rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
 
@@ -38,8 +39,7 @@ img {
     margin: 10px auto;
 }
 
-.description,
-.link-style {
+.description{
     border: 0.1rem solid rgb(240, 221, 255);
     border-radius: 2rem;
     padding: 0.3em;
@@ -50,12 +50,17 @@ img {
         inset 0 0 1.3rem #bc13fe;
     color: #fff;
     width: 15vw;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
+    transition: 0.25s;
+}
+
+.description:hover {
+    background-color: #bb13fe95;
 }
 
 .price {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     color: #fff;
     text-shadow:
@@ -69,28 +74,51 @@ img {
         0 0 150px #55ff;
 }
 
-.f-link {
+.link-style {
+    border: 0.1rem solid rgb(240, 221, 255);
+    border-radius: 2rem;
+    padding: 0.3em;
+    box-shadow:
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        inset 0 0 1.3rem #6d0b94;
+    color: #fff;
+    width: 15vw;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    background-color: #13bbfe95;
+}
+
+
+.link-pos {
     margin: 10px auto;
     display: block;
     text-align: center;
+    text-decoration: none;
 }
 
 .float {
     float: left;
     margin: 1em;
     width: calc(33.33% - 33px);
-    height: calc(50vh - 100px);
+    height: calc(60vh - 100px);
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     transition: 0.5s;
     opacity: 0.5;
     cursor: pointer;
+    border-radius: 14px;
 }
 
 .float:hover {
     opacity: 1;
-    box-shadow: 10px 20px 20px -10px rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
+    border-right: 1px solid rgba(190, 126, 255, 0.44);
+    border-bottom: 1px solid rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
