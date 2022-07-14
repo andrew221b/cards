@@ -84,10 +84,9 @@ img {
         inset 0 0 1.3rem #6d0b94;
     color: #fff;
     width: 15vw;
-    margin: 0 auto;
-    text-align: center;
     transition: 0.25s;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
 .link-style:hover {
@@ -96,11 +95,10 @@ img {
 
 
 .link-pos {
-    margin: 10px auto;
+    margin: 15px auto;
     display: block;
     text-align: center;
-    text-decoration: none;
-}
+   }
 
 .float {
     float: left;
