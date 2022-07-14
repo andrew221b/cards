@@ -29,8 +29,6 @@ body {
 .card:hover {
     background: rgba(255, 255, 255, 0.16);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
-    border-right: 1px solid rgba(190, 126, 255, 0.44);
-    border-bottom: 1px solid rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
 
@@ -115,7 +113,5 @@ img {
 .float:hover {
     background: rgba(255, 255, 255, 0.16);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
-    border-right: 1px solid rgba(190, 126, 255, 0.44);
-    border-bottom: 1px solid rgba(190, 126, 255, 0.44);
     transform: scale(1.05);
 }
