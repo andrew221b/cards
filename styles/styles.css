@@ -109,6 +109,7 @@ img {
     transition: 0.5s;
     cursor: pointer;
     border-radius: 14px;
+    padding-top: 20px;
 }
 
 .float:hover {
