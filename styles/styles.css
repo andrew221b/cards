@@ -31,7 +31,7 @@ img {
     margin: 10px auto;
 }
 
-.description {
+.description,.link-style{
     border: 0.1rem solid rgb(240, 221, 255);
     border-radius: 2rem;
     padding: 0.3em;
@@ -62,3 +62,9 @@ img {
 
 }
 
+.f-link {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    
+}
