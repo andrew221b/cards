@@ -10,21 +10,24 @@ body {
     font-family: Ubuntu, Arial;
 }
 
+.container {
+    font-size: 0;
+}
+
 .card {
+    font-size: 1rem;
     display: inline-block;
-    margin: 1em;
     width: calc(33.33% - 35px);
     height: calc(60vh - 100px);
+    margin: 1em;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
     transition: 0.5s;
-    opacity: 0.5;
     cursor: pointer;
     border-radius: 14px;
 }
 
 .card:hover {
-    opacity: 1;
+    background: rgba(255, 255, 255, 0.16);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
     border-right: 1px solid rgba(190, 126, 255, 0.44);
     border-bottom: 1px solid rgba(190, 126, 255, 0.44);
@@ -56,7 +59,7 @@ img {
 }
 
 .description:hover {
-    background-color: #bb13fe95;
+    background-color: #a30fddbf;
 }
 
 .price {
@@ -70,12 +73,10 @@ img {
         0 0 40px #55ff,
         0 0 80px #55ff,
         0 0 90px #55ff,
-        0 0 100px #55ff,
-        0 0 150px #55ff;
+        0 0 100px #55ff;
 }
 
 .link-style {
-    border: 0.1rem solid rgb(240, 221, 255);
     border-radius: 2rem;
     padding: 0.3em;
     box-shadow:
@@ -90,7 +91,7 @@ img {
 }
 
 .link-style:hover {
-    background-color: #13bbfe95;
+    background-color: #6d0b94;
 }
 
 .link-pos {
@@ -100,20 +101,19 @@ img {
 }
 
 .float {
+    font-size: 1rem;
     float: left;
     margin: 1em;
-    width: calc(33.33% - 33px);
+    width: calc(33.33% - 35px);
     height: calc(60vh - 100px);
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
     transition: 0.5s;
-    opacity: 0.5;
     cursor: pointer;
     border-radius: 14px;
 }
 
 .float:hover {
-    opacity: 1;
+    background: rgba(255, 255, 255, 0.16);
     box-shadow: 4px 14px 32px rgba(190, 126, 255, 0.44);
     border-right: 1px solid rgba(190, 126, 255, 0.44);
     border-bottom: 1px solid rgba(190, 126, 255, 0.44);
