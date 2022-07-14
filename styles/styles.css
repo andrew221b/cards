@@ -104,7 +104,7 @@ img {
     font-size: 1rem;
     float: left;
     margin: 1em;
-    width: calc(33.33% - 35px);
+    width: calc(33.33% - 32px);
     height: calc(60vh - 100px);
     background: rgba(255, 255, 255, 0.1);
     transition: 0.5s;
